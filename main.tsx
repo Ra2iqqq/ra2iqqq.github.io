@@ -7,9 +7,9 @@ import HomeRoute from "./routes";
 import LoginPage from "./routes/auth/login";
 import ProfilePage from "./routes/profile";
 import WorkPage from "./routes/work";
-import WorkDetailsPage from "./routes/work/workDetails";
+import WorkDetailsPage from "./routes/work/workdetails/index";
 import AchievementPage from "./routes/achievement";
-import AchievementDetailsPage from "./routes/achievement/achievementDetails";
+import AchievementDetailsPage from "./routes/achievement/achievementDetails/index";
 import CertificationPage from "./routes/certification";
 
 function DashboardShell({ children }: { children: ReactNode }) {

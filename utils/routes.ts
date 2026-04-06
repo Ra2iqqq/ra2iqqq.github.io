@@ -12,7 +12,7 @@ const routes: AppRoute[] = [
   { path: "/dashboard/certification", file: "routes/certification/index.tsx" },
   {
     path: "/dashboard/work/details",
-    file: "routes/work/workDetails/index.tsx",
+    file: "routes/work/workdetails/index.tsx",
   },
   {
     path: "/dashboard/achievement/details",
