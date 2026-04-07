@@ -10,6 +10,7 @@ import {
 	Wrench,
 	type LucideIcon,
 } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 import profileData, { type SkillItem } from "../../utils/profileData";
 
 function SectionTitle({
@@ -60,8 +61,9 @@ export default function ProfileModule() {
 						href="https://github.com/Ra2iqqq"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="mt-2 inline-block text-sm text-cyan-300 underline-offset-4 hover:underline"
+						className="mt-2 inline-flex items-center gap-2 text-sm text-cyan-300 underline-offset-4 hover:underline"
 					>
+						<FaGithub className="h-4 w-4" />
 						github.com/Ra2iqqq
 					</a>
 				</header>
@@ -134,17 +136,17 @@ export default function ProfileModule() {
 
 			<section className="grid gap-4 md:grid-cols-2">
 				<div className="rounded-2xl border border-slate-800 bg-[#121922] p-5">
-					<SectionTitle title="SOFT SKILLS" Icon={Brain} />
+					<SectionTitle title="Soft Skills" Icon={Brain} />
 					<SkillList items={profileData.softSkills} />
 				</div>
 
 				<div className="rounded-2xl border border-slate-800 bg-[#121922] p-5">
-					<SectionTitle title="COMPUTER SKILLS" Icon={Monitor} />
+					<SectionTitle title="Computer Skills" Icon={Monitor} />
 					<SkillList items={profileData.computerSkills} />
 				</div>
 
 				<div className="rounded-2xl border border-slate-800 bg-[#121922] p-5">
-					<SectionTitle title="TECHNICAL SKILLS" Icon={Wrench} />
+					<SectionTitle title="Technical Skills" Icon={Wrench} />
 					<SkillList items={profileData.technicalSkills} />
 				</div>
 
