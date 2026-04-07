@@ -132,7 +132,7 @@ export default function ProfileModule() {
 				</div>
 			</section>
 
-			<section className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+			<section className="grid gap-4 md:grid-cols-2">
 				<div className="rounded-2xl border border-slate-800 bg-[#121922] p-5">
 					<SectionTitle title="SOFT SKILLS" Icon={Brain} />
 					<SkillList items={profileData.softSkills} />
